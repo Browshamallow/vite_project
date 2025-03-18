@@ -1,0 +1,9 @@
+.rating {
+    font-size: 24px;
+    color: lightgray;
+  }
+  
+  .star.filled {
+    color: rgb(250, 64, 64);
+  }
+  

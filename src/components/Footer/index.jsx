@@ -5,8 +5,9 @@ function Footer(){
     return (
         <footer>
             <img src={logo} alt="" />
-            &copy; 2024 My Reacr App. All rights reserved
+            &copy; 2025 Meilleurs promotteurs. All rights reserved
         </footer>
     );
 }
+
 export default Footer;

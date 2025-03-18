@@ -1,8 +1,12 @@
 import "./banner.css"
-function Banner(){
+//import BANNER from "../../assets/images/source1.svg"
+function Banner({img, content}){
     return (
         <div className="banner">
-        <h1>Chez vous, partout et ailleurs</h1>
+        <img src={img} alt="" />
+        {content ?(
+        <h1 className="banner_title">{content}</h1>
+    ) : null}
         </div>
     );
 }

@@ -1,28 +1,17 @@
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #f2650e;
-    color: black;
-    padding: 10px;
-    text-align: center;
-    display:block;
-  }
- 
-  
-  footer span {
-    font-size: 16px;
-    margin-right: 5px;
-  }
-  
-  footer {
-    font-size: 14px;
-    font-family: Arial, sans-serif;
-  }
-  
-  footer img {
-    display: block;
-    margin: 0 auto;
-    height: 60px;
-    width: 100px;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  background-color: rgb(242, 96, 5);
+}
+
+footer img {
+  width: 7rem
+}
+
+footer p {
+  font-size: 14px;
+  color: black !important;
+}
